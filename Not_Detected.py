@@ -63,8 +63,8 @@ def Mail(path):
 #-----------------------------------------------------------------------------------------------------
 
 def MailSender(path):
-	from_address = "thisissaurabhdhoke@gmail.com"
-	to_address   = "saurabhdhoke70@gmail.com"
+	from_address = "sender_mail_id"
+	to_address   = "reciver_mail_id"
 		
 	msg = MIMEMultipart()
 	msg['From'] = from_address
@@ -101,7 +101,7 @@ def MailSender(path):
 		
 	s = smtplib.SMTP('smtp.gmail.com',587)
 	s.starttls()
-	s.login(from_address,"ztwozytyoptbqinv")
+	s.login(from_address,"password")
 		
 	text = msg.as_string()
 	s.sendmail(from_address,to_address,text)
