@@ -1,7 +1,7 @@
 # Device-Security-System
 
 # Description :
-    Device Security System - Developed a faial recognition based security application to prevent unauthorised device access during boot.
+    Device Security System - Developed a facial recognition based security application to prevent unauthorised device access during boot.
     Grants access only to registered users, while unrecognized faces trigger an alarm and notify the owner with an image.
     atomatically shuts down the system if no face is detected or the face dosen't match. 
     Ensures robust protection against unauthorised boot attemps.
